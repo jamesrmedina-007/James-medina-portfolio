@@ -337,3 +337,16 @@ p { color: var(--muted); }
   .case-stat-grid strong { font-size:1.8rem; }
   .case-stat-grid div { padding:20px; }
 }
+
+/* Pan De Vida case study */
+.pdv-hero .case-deck { max-width: 690px; }
+.pdv-cover img { aspect-ratio: 1.15; object-fit: cover; object-position: top center; }
+.pdv-mobile-frame { margin-top: 30px; max-width: 430px; border: 1px solid var(--line); border-radius: 34px; overflow: hidden; background: var(--surface); box-shadow: var(--shadow); }
+.pdv-mobile-frame img { width: 100%; display: block; }
+.pdv-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 44px; }
+.pdv-gallery figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); box-shadow: var(--shadow); }
+.pdv-gallery img { width: 100%; aspect-ratio: 1.45; object-fit: cover; object-position: top center; display: block; }
+.pdv-gallery figcaption { padding: 24px; }
+.pdv-gallery figcaption strong, .pdv-gallery figcaption span { display: block; }
+.pdv-gallery figcaption span { color: var(--muted); margin-top: 8px; line-height: 1.6; }
+@media (max-width: 760px) { .pdv-gallery { grid-template-columns: 1fr; } .pdv-cover img { aspect-ratio: .9; } }
