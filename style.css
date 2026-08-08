@@ -350,8 +350,20 @@ p { color: var(--muted); }
 .pdv-gallery figcaption strong, .pdv-gallery figcaption span { display: block; }
 .pdv-gallery figcaption span { color: var(--muted); margin-top: 8px; line-height: 1.6; }
 @media (max-width: 760px) { .pdv-gallery { grid-template-columns: 1fr; } .pdv-cover img { aspect-ratio: .9; } }
-/* Pan De Vida featured project image */
-.project-featured .project-image img {
+/* Pan De Vida featured project */
+.pandevida-card .project-image {
+    min-height: 520px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pandevida-card .project-image img {
+    width: 100%;
+    height: auto;
+    max-height: 520px;
     object-fit: contain;
-    object-position: center top;
+    object-position: center;
+    border-radius: 18px;
 }
