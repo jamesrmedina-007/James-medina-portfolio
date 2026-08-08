@@ -142,8 +142,8 @@ p { color: var(--muted); }
 
 .work-heading { display: grid; grid-template-columns: 1.4fr .6fr; gap: 70px; align-items: end; margin-bottom: 55px; }
 .work-heading > p { padding-bottom: 15px; }
-.project-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 25px; }
-.project-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: transform .25s ease, box-shadow .25s ease; }
+.project-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:25px; align-items:start; }
+.project-card { align-self:start; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); }
 .project-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
 .project-featured { grid-column: span 2; display: grid; grid-template-columns: 1fr 1fr; }
 .project-image { min-height: 360px; background: var(--surface-2); overflow: hidden; }
