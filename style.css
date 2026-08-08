@@ -203,7 +203,7 @@ p { color: var(--muted); }
 .skill-card h3 { margin: 24px 0 12px; }
 .skill-card p { font-size: .92rem; margin-bottom: 0; }
 
-.contact-section { padding-top: 30px; padding-bottom: 90px; }
+.contact-section { padding-top: 0; padding-bottom: 60px; }
 .contact-panel { background: linear-gradient(135deg,#1d4ed8,#111827); border-radius: 34px; padding: 65px; display: grid; grid-template-columns: 1.25fr .75fr; gap: 50px; align-items: center; color: white; }
 .contact-panel h2 { font-size: clamp(2.3rem,4vw,4rem); margin-bottom: 18px; }
 .contact-panel p { color: #dbe4f3; max-width: 650px; margin-bottom: 0; }
