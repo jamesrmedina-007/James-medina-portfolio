@@ -368,3 +368,15 @@ p { color: var(--muted); }
     object-position: center;
     border-radius: 18px;
 }
+/* Improve readability on dark analytics section */
+.analytics-section,
+.analytics-section p,
+.analytics-section h1,
+.analytics-section h2,
+.analytics-section h3 {
+  color: #ffffff;
+}
+
+.analytics-section .muted {
+  color: #e2e8f0;
+}
