@@ -134,6 +134,10 @@ p { color: var(--muted); }
 
 .two-col { display: grid; grid-template-columns: 1.15fr 1fr; gap: 70px; align-items: start; }
 .about-section { background: var(--surface); }
+.about-section .section-heading h2 {
+  font-size: clamp(2.5rem, 4vw, 4.3rem);
+  line-height: 1.02;
+}
 .about-copy { max-width: 670px; }
 .about-copy > p { font-size: 1.12rem; }
 .education-card { padding: 24px; border-radius: 20px; background: var(--surface-2); margin-top: 34px; }
